@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35109749904",
+    "project_id": "btth04-6d5fe",
+    "storage_bucket": "btth04-6d5fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35109749904:android:cbb961ee02a34516a08415",
+        "android_client_info": {
+          "package_name": "com.example.btth04"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt2NViYu8t0xQep_Dny_lpaUKPFcahhJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
