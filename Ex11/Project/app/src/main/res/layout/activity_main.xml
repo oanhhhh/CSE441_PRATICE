@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Bai10_Intent_filter_main"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhap link Website"
+        android:textColor="#4CAF50"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="10dp"/>
+
+    <EditText
+        android:id="@+id/edtLink"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A4A3A3"
+        android:gravity="center_horizontal"
+        android:text="SHOW WEB PAGE"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+</LinearLayout>
